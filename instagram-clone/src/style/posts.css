@@ -1,0 +1,50 @@
+.post {
+  max-width: 60vw;
+  background-color: white;
+  border: 1px solid lightgray;
+  margin-bottom: 45px;
+  border-radius: 10px;
+}
+.post-img {
+  width: 100%;
+  object-fit: contain;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.avatar {
+  margin-right: 10px;
+}
+h4 {
+  font-weight: normal;
+  padding: 20px;
+}
+
+.MuiSvgIcon-root {
+  padding: 10px;
+}
+.comment-section {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.comment-section input {
+  flex: 1;
+  border-top: 1px solid lightgray;
+  padding: 4px;
+}
+.comment-section Button {
+  flex: 0;
+  border-top: 1px solid lightgray;
+  color: white;
+  background-color: rgb(49, 49, 247);
+}
+.comment-section Button:hover {
+  color: black;
+  background-color: gray;
+}

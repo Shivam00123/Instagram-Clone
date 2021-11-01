@@ -1,0 +1,48 @@
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  background-color: white;
+  height: 10vh;
+  max-height: 5vh;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.app-header img {
+  object-fit: contain;
+}
+
+.logo {
+  object-fit: contain;
+  height: 100px;
+  filter: contrast(200%);
+}
+
+.search-box {
+  width: 40vw;
+  height: 30px;
+  max-height: 30px;
+  border-radius: 10px;
+  margin-right: 10px;
+  outline: none;
+  text-align: center;
+  font-size: large;
+}
+.search-box::placeholder {
+  font-weight: bold;
+}
+
+.icons-box {
+  display: flex;
+  align-items: center;
+  /* max-width: 5vw; */
+  justify-content: space-around;
+}
+
+.MuiSvgIcon-root {
+  padding-right: 10px;
+}
